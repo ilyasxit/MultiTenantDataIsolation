@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\samples",
+    "\\samples\\JobSite.Core\\Data",
+    "\\samples\\JobSite.Core\\Data\\MainContext",
+    "\\samples\\JobSite.Core\\Data\\MainContext\\Configuration",
+    "\\samples\\JobSite.Core\\Data\\MainContext\\Configuration\\Mappings"
+  ],
+  "PreviewInSolutionExplorer": false
+}

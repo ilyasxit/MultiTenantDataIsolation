@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.*" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.*" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="[2.1.0,3)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="[2.1.0,3)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/Finbuckle.MultiTenant.Core/Finbuckle.MultiTenant.Core.csproj" />
+  </ItemGroup>
+</Project>

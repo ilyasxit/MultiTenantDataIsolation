@@ -1,0 +1,19 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false, 
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:44001",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "JobSite.Jobseeker": {
+      "commandName": "Project",
+      "launchUrl": "https://localhost:44001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

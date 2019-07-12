@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="testsettings*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.*" />
+    <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="[2.1.0,3)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="[2.1.0,3)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="[2.1.0,3)" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="[2.1.0,3)" />
+    <PackageReference Include="xunit" Version="2.*" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.*" />
+    <PackageReference Include="Moq" Version="4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/Finbuckle.MultiTenant.AspNetCore/Finbuckle.MultiTenant.AspNetCore.csproj" />
+    <ProjectReference Include="../../test/Finbuckle.MultiTenant.Core.Test/Finbuckle.MultiTenant.Core.Test.csproj" />
+  </ItemGroup>
+</Project>
