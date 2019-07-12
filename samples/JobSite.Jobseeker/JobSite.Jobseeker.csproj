@@ -30,4 +30,9 @@
     <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JobSite.Core\JobSite.Core.csproj" />
+    <ProjectReference Include="..\JobSite.Domain\JobSite.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

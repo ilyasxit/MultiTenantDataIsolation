@@ -13,16 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="JobSite.Core">
-      <HintPath>..\JobSite.Core\bin\Debug\netcoreapp2.2\JobSite.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="JobSite.Domain">
-      <HintPath>..\JobSite.Domain\bin\Debug\netcoreapp2.2\JobSite.Domain.dll</HintPath>
-    </Reference>
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\JobSite.Core\JobSite.Core.csproj" />
+    <ProjectReference Include="..\JobSite.Domain\JobSite.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -22,9 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="JobSite.Domain">
-      <HintPath>..\JobSite.Domain\bin\Debug\netcoreapp2.2\JobSite.Domain.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\JobSite.Domain\JobSite.Domain.csproj" />
   </ItemGroup>
 
 </Project>
